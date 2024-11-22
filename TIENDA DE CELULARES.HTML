@@ -1,0 +1,400 @@
+<!DOCTYPE html> 
+
+<html lang="es"> 
+
+<head> 
+
+  <meta charset="UTF-8"> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <title>Tienda de Celulares</title> 
+
+  <style> 
+
+    body { 
+
+      font-family: Arial, sans-serif; 
+
+      margin: 0; 
+
+      padding: 0; 
+
+      background-color: #b1b1b1; 
+
+    } 
+
+    header { 
+
+      background-color: #ff0101; 
+
+      color: rgb(0, 0, 0); 
+
+      text-align: center; 
+
+      padding: 20px 0; 
+
+    } 
+
+    nav { 
+
+      background-color: #8a8888; 
+
+      padding: 10px; 
+
+      text-align: right; 
+
+    } 
+
+    nav a { 
+
+      color: white; 
+
+      margin: 0 15px; 
+
+      text-decoration: none; 
+
+      font-size: 18px; 
+
+    } 
+
+    .container { 
+
+      max-width: 1200px; 
+
+      margin: 20px auto; 
+
+      padding: 20px; 
+
+      background-color: rgb(255, 255, 255); 
+
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
+    } 
+
+    .section-title { 
+
+      text-align: center; 
+
+      margin-bottom: 20px; 
+
+      font-size: 24px; 
+
+    } 
+
+    .promociones, .sucursales, .contacto { 
+
+      display: flex; 
+
+      justify-content: space-around; 
+
+      flex-wrap: wrap; 
+
+      gap: 100px; 
+
+    } 
+
+    .producto, .sucursal, .contacto-info { 
+
+      background-color: #ffffff; 
+
+      padding: 15px; 
+
+      border-radius: 8px; 
+
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
+      width: 30%; 
+
+      text-align: center; 
+
+    } 
+
+    .producto img { 
+
+      width: 100%; 
+
+      max-height: 550px; 
+
+      object-fit: cover; 
+
+      border-radius: 8px; 
+
+    } 
+
+    .producto h3 { 
+
+      font-size: 20px; 
+
+      color: #333; 
+
+    } 
+
+    .producto p { 
+
+      font-size: 16px; 
+
+      color: #777; 
+
+    } 
+
+    footer { 
+
+      text-align: center; 
+
+      padding: 15px; 
+
+      background-color: #333; 
+
+      color: white; 
+
+    } 
+
+  </style> 
+
+</head> 
+
+<body> 
+
+ 
+
+  <header> 
+
+    <h1>Tienda de Celulares</h1> 
+
+    <p>¡Los mejores smartphones al mejor precio!</p> 
+
+  </header> 
+
+ 
+
+  <nav> 
+
+    <a href="#quienes-somos">¿Quiénes somos?</a> 
+
+    <a href="#historia">Historia</a> 
+
+    <a href="#catalogo">Catálogo</a> 
+
+    <a href="#promociones">Promociones</a> 
+
+    <a href="#sucursales">Sucursales</a> 
+
+    <a href="#contacto">Contáctanos</a> 
+
+  </nav> 
+
+ 
+
+  <!-- Sección ¿Quiénes somos? --> 
+
+  <div class="container" id="quienes-somos"> 
+
+    <h2 class="section-title">¿Quiénes Somos?</h2> 
+
+    <p>Somos una tienda especializada en la venta de celulares y accesorios de alta calidad. Contamos con una amplia variedad de productos para satisfacer todas tus necesidades tecnológicas, con precios competitivos y atención personalizada.</p> 
+
+  </div> 
+
+ 
+
+  <!-- Sección Historia --> 
+
+  <div class="container" id="historia"> 
+
+    <h2 class="section-title">Nuestra Historia</h2> 
+
+    <p>Fundada en 2010, nuestra tienda comenzó con la misión de ofrecer los mejores dispositivos móviles al alcance de todos. A lo largo de los años, hemos crecido para convertirnos en una de las principales tiendas de tecnología de la región, destacándonos por nuestro excelente servicio al cliente y productos innovadores.</p> 
+
+  </div> 
+
+ 
+
+  <!-- Sección Catálogo --> 
+
+  <div class="container" id="catalogo"> 
+
+    <h2 class="section-title">Catálogo</h2> 
+
+    <p>En nuestro catálogo encontrarás una amplia gama de celulares de diferentes marcas y precios. Desde modelos de gama alta hasta opciones más asequibles, siempre con las mejores características y garantías.</p> 
+
+    <div class="promociones"> 
+
+      <!-- Producto 1 --> 
+
+      <div class="producto"> 
+
+        <img src="https://i5.walmartimages.com/asr/5f0da729-e100-451c-bb3f-bb73c8790f4d.3433604222da5bb01ecec41617aa9aa6.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Celular 1"> 
+
+        <h3>$8,999.00</h3> 
+
+        <p>Smartphone Oppo Reno 11 5G 256gb 8gb Ram Verde</p> 
+
+      </div> 
+
+      <!-- Producto 2 --> 
+
+      <div class="producto"> 
+
+        <img src="https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00084002325642L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Celular 2"> 
+
+        <h3>$2,649.00</h3> 
+
+        <p>Smartphone Motorola Moto G54 256 GB Azul Desbloqueado</p> 
+
+      </div> 
+
+      <!-- Producto 3 --> 
+
+      <div class="producto"> 
+
+        <img src="https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00084002326939L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Celular 3"> 
+
+        <h3> $6,797.00</h3> 
+
+        <p>Smartphone de última generación con procesador Snapdragon 888</p> 
+
+      </div> 
+
+      <div class="producto"> 
+
+        <img src="https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00084002324960L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Celular 3"> 
+
+        <h3>$3,797.00</h3> 
+
+        <p>Smartphone de última generación con procesador Snapdragon 888</p> 
+
+      </div> 
+
+
+    </div> 
+
+  </div> 
+
+ 
+
+
+    </div> 
+
+  </div> 
+
+ 
+
+  <div class="container" id="promociones"> 
+
+    <h2 class="section-title">Promociones Especiales</h2> 
+
+    <div class="promociones"> 
+
+      <!-- Promoción 1 --> 
+
+      <div class="producto"> 
+
+        <h3>Descuento del 30%</h3> 
+
+        <p>En todos los celulares de gama media</p> 
+
+      </div> 
+
+      <!-- Promoción 2 --> 
+
+      <div class="producto"> 
+
+        <h3>Descuento del 40%</h3> 
+
+        <p>En todos los celulares de la marca "Motorola</p> 
+
+      </div> 
+
+    </div> 
+
+  </div> 
+
+ 
+
+  <div class="container" id="sucursales"> 
+
+    <h2 class="section-title">Nuestras Sucursales</h2> 
+
+    <div class="sucursales"> 
+
+      <!-- Sucursal 1 --> 
+
+      <div class="sucursal"> 
+
+        <h3>Sucursal EIAO.SAN NICOLAS </h3> 
+
+        <p>Ubicación: Torres de Santo Domingo</p> 
+
+        <p>Teléfono: 8185238959</p> 
+
+      </div> 
+
+      <!-- Sucursal 2 --> 
+
+      <div class="sucursal"> 
+
+        <h3>Sucursal EIAO.MONTERREY I</h3> 
+
+        <p>Ubicación: FELIX U GOMEZ</p> 
+
+        <p>Teléfono: 8185238959</p> 
+
+      </div> 
+
+      <!-- Sucursal 3 --> 
+
+      <div class="sucursal"> 
+
+        <h3>EIAO.GUADALUPE</h3> 
+
+        <p>Ubicación: TRES CAMINOS</p> 
+
+        <p>Teléfono: 8184896935</p> 
+
+      </div> 
+
+    </div> 
+
+  </div> 
+
+ 
+
+  <div class="container" id="contacto"> 
+
+    <h2 class="section-title">Contáctanos</h2> 
+
+    <div class="contacto"> 
+
+      <div class="contacto-info"> 
+
+        <h3>Formulario de Contacto</h3> 
+
+        <p>¿Tienes alguna duda? ¡Escríbenos!</p> 
+
+        <form action="mailto:contacto@tiendacelulares.com" method="post" enctype="text/plain"> 
+
+          <input type="text" name="name" placeholder="Tu Nombre" required><br> 
+
+          <input type="email" name="email" placeholder="Tu Email" required><br> 
+
+          <textarea name="message" placeholder="Tu mensaje..." required></textarea><br> 
+
+          <input type="submit" value="Enviar"> 
+
+        </form> 
+
+      </div> 
+
+    </div> 
+
+  </div> 
+
+ 
+
+
+ 
+
+</body> 
+
+</html> 
